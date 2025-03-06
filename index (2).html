@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي البسيط</title>
+
+    <!-- إضافة CSS داخل <style> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>مرحبًا بك في موقعي</h1>
+        <p>هذا مثال لموقع بسيط باستخدام HTML و CSS و JavaScript.</p>
+    </header>
+
+    <button id="changeText">اضغط هنا لتغيير النص</button>
+
+    <!-- إضافة JavaScript داخل <script> -->
+    <script>
+        document.getElementById("changeText").addEventListener("click", function () {
+            alert("تم تغيير النص!");
+        });
+    </script>
+
+</body>
+
+</html>
